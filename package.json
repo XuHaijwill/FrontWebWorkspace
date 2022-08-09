@@ -1,0 +1,25 @@
+{
+  "name": "frontwebworkspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "live-server ./ --port=8181 --host=localhost --proxy=/api:http://www.abc.com/api/",
+    "dev": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XuHaijwill/FrontWebWorkspace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XuHaijwill/FrontWebWorkspace/issues"
+  },
+  "homepage": "https://github.com/XuHaijwill/FrontWebWorkspace#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
